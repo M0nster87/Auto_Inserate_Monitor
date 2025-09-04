@@ -24,7 +24,7 @@ def send_telegram_message(bot_token, chat_id, text):
         print("Fehler beim Telegram-Versand:", e)
 
 # ====== JSON-Speicherort ======
-json_path = os.path.join(os.path.dirname(__file__), "bmw_inserate.json")
+json_path = os.path.join(os.path.dirname(__file__), "data", "bmw_inserate.json")
 
 # ====== Monitoring Loop ======
 while True:
