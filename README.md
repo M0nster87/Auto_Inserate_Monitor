@@ -31,5 +31,5 @@ Dieses Python-Projekt überwacht BMW-Inserate auf [Otomoto.pl](https://www.otomo
 ## Installation
 1. Repository klonen:
 ```bash
-git clone <Ihr-Repo-URL>
+git clone https://github.com/M0nster87/Bmw_inserate_Monitor.git
 cd Bmw_inserate_Monitor
