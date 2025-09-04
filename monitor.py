@@ -9,8 +9,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 
 # ====== Telegram Einstellungen ======
-BOT_TOKEN = "8005136855:AAEY05CWz_7JVurx3GA-cabSsU5awHENdPU"  # von @BotFather
-CHAT_ID = "-4894148454"
+BOT_TOKEN = ""  # von @BotFather
+CHAT_ID = ""
 
 
 def send_telegram_message(bot_token, chat_id, text):
