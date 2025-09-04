@@ -1,7 +1,7 @@
 # BMW Inserate Monitor
 
 ## Projektbeschreibung
-Dieses Python-Projekt überwacht BMW-Inserate auf [Otomoto.pl](https://www.otomoto.pl/) und benachrichtigt Sie automatisch über neue Inserate via Telegram. Bereits gefundene Inserate werden in einer JSON-Datei gespeichert, um Doppelbenachrichtigungen zu vermeiden.
+Dieses Python-Projekt überwacht BMW-Inserate auf [https://www.otomoto.pl/] und benachrichtigt Sie automatisch über neue Inserate via Telegram. Bereits gefundene Inserate werden in einer JSON-Datei gespeichert, um Doppelbenachrichtigungen zu vermeiden.
 
 ### Überwachungs-Kriterien
 - Baujahr ab 2008
