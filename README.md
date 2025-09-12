@@ -1,15 +1,9 @@
-# BMW Inserate Monitor
+# BMW & Audi Inserate Monitor
 
-## Projektbeschreibung
-Dieses Python-Projekt überwacht BMW-Inserate auf [Otomoto.pl](https://www.otomoto.pl/) und benachrichtigt Sie automatisch über neue Inserate via Telegram. Bereits gefundene Inserate werden in einer JSON-Datei gespeichert, um Doppelbenachrichtigungen zu vermeiden.
-
-
-### Überwachungs-Kriterien
-- Baujahr ab 2008
-- Automatikgetriebe
-- Mindestens 170 PS
-- Preis ab 4000 €
-- Max. 145.000 km Laufleistung
+### Projektbeschreibung
+Dieses Tool überwacht automatisch neue Inserate für BMW und Audi auf [otomoto.pl](https://www.otomoto.pl/) anhand vordefinierter Kriterien 
+(Baujahr ab 2008, Automatikgetriebe, mind. 190 PS, max. 750.000 Pln Preis). 
+Neue Inserate werden über einen Telegram-Bot gemeldet und lokal in einer JSON-Datei gespeichert.
 
 ---
 
@@ -30,7 +24,6 @@ Dieses Python-Projekt überwacht BMW-Inserate auf [Otomoto.pl](https://www.otomo
 ---
 
 ## Installation
-1. Repository klonen:
-```bash
-git clone https://github.com/M0nster87/Bmw_inserate_Monitor.git
-cd Bmw_inserate_Monitor
+- git clone https://github.com/M0nster87/Bmw_inserate_Monitor.git
+- cd Bmw_inserate_Monitor
+- pip install -r requirements.txt
