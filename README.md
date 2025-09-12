@@ -1,9 +1,9 @@
 # BMW & Audi Inserate Monitor
 ---
-### Projektbeschreibung
-Dieses Tool überwacht automatisch neue Inserate für BMW und Audi auf [otomoto.pl](https://www.otomoto.pl/) anhand vordefinierter Kriterien 
-(Baujahr ab 2008, Automatikgetriebe, mind. 190 PS, max. 750.000 Pln Preis). 
-Neue Inserate werden über einen Telegram-Bot gemeldet und lokal in einer JSON-Datei gespeichert.
+## Projektbeschreibung
+- Dieses Tool überwacht automatisch neue Inserate für BMW und Audi auf [otomoto.pl](https://www.otomoto.pl/)
+- Kriterien (Baujahr ab 2008, Automatikgetriebe, mind. 190 PS, max. 750.000 Pln Preis)
+- Neue Inserate werden über einen Telegram-Bot gemeldet und lokal gespeichert
 ---
 ## Features
 - Automatisches Monitoring alle 5 Minuten
