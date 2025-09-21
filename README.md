@@ -8,7 +8,7 @@
 ## Features
 - Automatisches Monitoring alle 5 Minuten
 - Benachrichtigung über neue Inserate per Telegram-Bot
-- Historie der Inserate in `bmw_inserate.json` gespeichert
+- Historie der Inserate in `seen.json` gespeichert
 - Einfache Erweiterung für zusätzliche Filter oder Plattformen
 ---
 ## Voraussetzungen
@@ -43,7 +43,7 @@
    - In der JSON-Antwort findest du deine `chat.id`
    
 4. **Daten ins Script eintragen**
-   - Öffne `monitor.py` und setze deine Werte ein:
+   - Öffne `auto_inserate.py` und setze deine Werte ein:
      
 5. **Script starten**
    - Jetzt sendet der Monitor neue Inserate automatisch an deinen Telegram-Account.
