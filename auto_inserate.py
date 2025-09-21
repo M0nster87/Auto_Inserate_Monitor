@@ -9,8 +9,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 
 # ====== Telegram-Konfiguration ======
-BOT_TOKEN = "8005136855:AAEY05CWz_7JVurx3GA-cabSsU5awHENdPU"
-CHAT_ID = "-4894148454"
+BOT_TOKEN = ""
+CHAT_ID = ""
 
 # ====== Filter-Parameter ======
 MIN_PS = 190
