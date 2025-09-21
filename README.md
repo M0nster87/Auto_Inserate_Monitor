@@ -6,7 +6,7 @@
 - Neue Inserate werden über einen Telegram-Bot gemeldet und lokal gespeichert
 ---
 ## Features
-- Automatisches Monitoring alle 5 Minuten
+- Automatisches Monitoring alle 10 Minuten
 - Benachrichtigung über neue Inserate per Telegram-Bot
 - Historie der Inserate in `seen.json` gespeichert
 - Einfache Erweiterung für zusätzliche Filter oder Plattformen
